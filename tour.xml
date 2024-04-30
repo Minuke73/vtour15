@@ -1,0 +1,119 @@
+﻿<krpano version="1.20.11" title="">
+
+	<include url="skin/vtourskin.xml" />
+	<include url="skin/customskin.xml" />
+
+
+	<!--
+	    For an alternative skin design either change the <skin_settings> values 
+	    from above or optionally include one of the predefined designs from below.
+	-->
+	<!-- <include url="skin/vtourskin_design_flat_light.xml"  /> -->
+	<!-- <include url="skin/vtourskin_design_glass.xml"       /> -->
+	<!-- <include url="skin/vtourskin_design_ultra_light.xml" /> -->
+	<!-- <include url="skin/vtourskin_design_117.xml"         /> -->
+	<!-- <include url="skin/vtourskin_design_117round.xml"    /> -->
+	<!-- <include url="skin/vtourskin_design_black.xml"       /> -->
+
+	<action name="startup" autorun="onstart">
+		if(startscene === null OR !scene[get(startscene)], copy(startscene,scene[0].name); );
+		loadscene(get(startscene), null, MERGE);
+		if(startactions !== null, startactions() );
+	</action>
+	
+	<scene name="scene_72-1" title="차이나타운" onstart="" thumburl="panos/72-1.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="589.301" vlookat="43.171" fovtype="MFOV" fov="131.621" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/72-1.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/72-1.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="151.128" atv="43.253" distorted="false" zoom="false" linkedscene="scene_72-2" />
+		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="163.128" atv="40.253" distorted="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text" style="custom_hotspotext"  html="차이나타운 " ath="165.128" atv="38.253" distorted="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />		
+		<hotspot name="spot2" style="skin_hotspotstyle" ath="161.849" atv="55.124" distorted="false" zoom="false" linkedscene="scene_72-3" />
+		
+		<hotspot name="spot4" style="skin_hotspotstyle" ath="-122.964" atv="32.818" distorted="false" zoom="false" linkedscene="scene_72-4" />
+		<hotspot type="image" name="spot6" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle"  ath="-123.964" atv="23.818" distorted="false" zoom="false" linkmodal="modal2" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text2" style="custom_hotspotext"  html="삼국지 벽화거리 "  ath="-123.964" atv="20" distorted="false" zoom="false" linkmodal="modal2" onclick="custom_hotspotstyle_click();" />		
+
+		<hotspot name="spot3" style="skin_hotspotstyle" ath="-71.396" atv="17.635" distorted="false" zoom="false" linkedscene="scene_72-5" />
+		<hotspot type="image" name="spot7" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle"  ath="-73.596" atv="14.635" distorted="false" zoom="false" linkmodal="modal3" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text3" style="custom_hotspotext"  html="한중문화관 "  ath="-75.1" atv="12.635" distorted="false" zoom="false" linkmodal="modal3" onclick="custom_hotspotstyle_click();" />		
+
+
+		
+
+	</scene>
+
+	<scene name="scene_72-2" title="차이나타운 거리 (1)" onstart="" thumburl="panos/72-2.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-3.391" vlookat="-14.693" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/72-2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/72-2.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" rotate="-180" ath="1.372" atv="17.011" distorted="false" zoom="true" linkedscene="scene_72-3" />
+
+	</scene>
+
+	<scene name="scene_72-3" title="차이나타운 거리 (2)" onstart="" thumburl="panos/72-3.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="-245.346" vlookat="-0.368" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/72-3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/72-3.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="105.634" atv="1.474" distorted="false" zoom="false" linkedscene="scene_72-4" />
+
+	</scene>
+
+	<scene name="scene_72-4" title="삼국지 벽화거리" onstart="" thumburl="panos/72-4.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="206.741" vlookat="-1.623" fovtype="MFOV" fov="115.833" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/72-4.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/72-4.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="-147.402" atv="7.586" distorted="false" zoom="false" linkedscene="scene_72-5" />
+
+	</scene>
+
+	<scene name="scene_72-5" title="한중문화관" onstart="" thumburl="panos/72-5.tiles/thumb.jpg" lat="" lng="" heading="">
+		
+		<control bouncinglimits="calc:image.cube ? true : false" />
+
+		<view hlookat="66.289" vlookat="-23.239" fovtype="MFOV" fov="120.000" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="panos/72-5.tiles/preview.jpg" />
+
+		<image>
+			<cube url="panos/72-5.tiles/%s/l%l/%0v/l%l_%s_%0v_%0h.jpg" multires="512,768,1664,3200,6400" />
+		</image>
+
+		<hotspot name="spot1" style="skin_hotspotstyle" ath="23.227" atv="-33.536" distorted="false" zoom="false" linkedscene="scene_72-1" />
+
+	</scene>
+
+
+</krpano>
