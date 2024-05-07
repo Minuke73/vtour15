@@ -34,17 +34,17 @@
 		</image>
 
 		<hotspot name="spot1" style="skin_hotspotstyle" ath="151.128" atv="43.253" distorted="false" zoom="false" linkedscene="scene_72-2" />
-		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="163.128" atv="40.253" distorted="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
-		<hotspot name="text" style="custom_hotspotext"  html="차이나타운 " ath="165.128" atv="38.253" distorted="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />		
+		<hotspot type="image" name="spot5" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle" ath="163.128" atv="40.253" distorted="false" enabled="false" zoom="false" linkmodal="modal1" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text" style="custom_hotspotext"  html="차이나타운 " ath="165.128" atv="38.253" distorted="false" zoom="false" enabled="false"  linkmodal="modal1" onclick="custom_hotspotstyle_click();" />		
 		<hotspot name="spot2" style="skin_hotspotstyle" ath="161.849" atv="55.124" distorted="false" zoom="false" linkedscene="scene_72-3" />
 		
 		<hotspot name="spot4" style="skin_hotspotstyle" ath="-122.964" atv="32.818" distorted="false" zoom="false" linkedscene="scene_72-4" />
-		<hotspot type="image" name="spot6" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle"  ath="-123.964" atv="23.818" distorted="false" zoom="false" linkmodal="modal2" onclick="custom_hotspotstyle_click();" />
-		<hotspot name="text2" style="custom_hotspotext"  html="삼국지 벽화거리 "  ath="-123.964" atv="20" distorted="false" zoom="false" linkmodal="modal2" onclick="custom_hotspotstyle_click();" />		
+		<hotspot type="image" name="spot6" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle"  ath="-123.964" atv="23.818" distorted="false" zoom="false" enabled="false"  linkmodal="modal2" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text2" style="custom_hotspotext"  html="삼국지 벽화거리 "  ath="-123.964" atv="20" distorted="false" zoom="false" enabled="false"  linkmodal="modal2" onclick="custom_hotspotstyle_click();" />		
 
 		<hotspot name="spot3" style="skin_hotspotstyle" ath="-71.396" atv="17.635" distorted="false" zoom="false" linkedscene="scene_72-5" />
-		<hotspot type="image" name="spot7" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle"  ath="-73.596" atv="14.635" distorted="false" zoom="false" linkmodal="modal3" onclick="custom_hotspotstyle_click();" />
-		<hotspot name="text3" style="custom_hotspotext"  html="한중문화관 "  ath="-75.1" atv="12.635" distorted="false" zoom="false" linkmodal="modal3" onclick="custom_hotspotstyle_click();" />		
+		<hotspot type="image" name="spot7" url="skin/vtourskin_hotspot_point.png" style="skin_hotspotstyle"  ath="-73.596" atv="14.635" distorted="false" zoom="false" enabled="false" linkmodal="modal3" onclick="custom_hotspotstyle_click();" />
+		<hotspot name="text3" style="custom_hotspotext"  html="한중문화관 "  ath="-75.1" atv="12.635" distorted="false" zoom="false" enabled="false"  linkmodal="modal3" onclick="custom_hotspotstyle_click();" />		
 
 
 		
