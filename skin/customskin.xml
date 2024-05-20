@@ -16,8 +16,8 @@
        shadowangle="45"
        shadowcolor="0x000000"
        shadowalpha="0.5" padding="0 10 10 10"
-	   	   onover.addevent="tween(scale,1.3);"
-	       onout.addevent="tween(scale,1);" 
+	   	   onover.addevent="tween(scale,1.2);tween(bgcolor,0xffff99);"
+	       onout.addevent="tween(scale,1);tween(bgcolor,0xffffff);" 
 	   /> 
 	   
 	<style name="custom_hotspotext2" type="text" autoalpha="false" alpha="1" bg="false" bgcolor="transparent"
