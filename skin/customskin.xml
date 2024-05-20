@@ -16,7 +16,7 @@
        shadowangle="45"
        shadowcolor="0x000000"
        shadowalpha="0.5" padding="0 10 10 10"
-	   	   onover.addevent="tween(scale,1.1);"
+	   	   onover.addevent="tween(scale,1.3);"
 	       onout.addevent="tween(scale,1);" 
 	   /> 
 	   
